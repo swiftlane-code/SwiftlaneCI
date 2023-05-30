@@ -1,0 +1,185 @@
+{
+  "pins" : [
+    {
+      "identity" : "aexml",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/tadija/AEXML.git",
+      "state" : {
+        "revision" : "38f7d00b23ecd891e1ee656fa6aeebd6ba04ecc3",
+        "version" : "4.6.1"
+      }
+    },
+    {
+      "identity" : "appstoreconnectjwt",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/swiftlane-code/AppStoreConnectJWT.git",
+      "state" : {
+        "revision" : "68165d59be816fcc2525ad4b79cb5d3f6a15072c",
+        "version" : "0.9.0"
+      }
+    },
+    {
+      "identity" : "bagbutik",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/MortenGregersen/Bagbutik",
+      "state" : {
+        "revision" : "ae3fb005c65d775d3be80cd48cad84ee18a2bb9a",
+        "version" : "3.2.0"
+      }
+    },
+    {
+      "identity" : "blueecc",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Kitura/BlueECC.git",
+      "state" : {
+        "revision" : "1485268a54f8135435a825a855e733f026fa6cc8",
+        "version" : "1.2.201"
+      }
+    },
+    {
+      "identity" : "chalk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/luoxiu/Chalk",
+      "state" : {
+        "revision" : "8a9d3373bd754fb62f7881d9f639d376f5e4d5a5",
+        "version" : "0.2.1"
+      }
+    },
+    {
+      "identity" : "commander",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kylef/Commander",
+      "state" : {
+        "revision" : "4a1f2fb82fb6cef613c4a25d2e38f702e4d812c2",
+        "version" : "0.9.2"
+      }
+    },
+    {
+      "identity" : "pathkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kylef/PathKit",
+      "state" : {
+        "revision" : "3bfd2737b700b9a36565a8c94f4ad2b050a5e574",
+        "version" : "1.0.1"
+      }
+    },
+    {
+      "identity" : "perfectrainbow",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nstmrt/PerfectRainbow",
+      "state" : {
+        "revision" : "0b50fbd8db63a76796f68def522c2a45705da4f5",
+        "version" : "4.0.2"
+      }
+    },
+    {
+      "identity" : "rainbow",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/luoxiu/Rainbow",
+      "state" : {
+        "revision" : "9d8fcb4c64e816a135c31162a0c319e9f1f09c35",
+        "version" : "0.1.1"
+      }
+    },
+    {
+      "identity" : "shellout",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/JohnSundell/ShellOut",
+      "state" : {
+        "revision" : "e1577acf2b6e90086d01a6d5e2b8efdaae033568",
+        "version" : "2.3.0"
+      }
+    },
+    {
+      "identity" : "spectre",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kylef/Spectre.git",
+      "state" : {
+        "revision" : "26cc5e9ae0947092c7139ef7ba612e34646086c7",
+        "version" : "0.10.1"
+      }
+    },
+    {
+      "identity" : "swift-argument-parser",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-argument-parser",
+      "state" : {
+        "revision" : "9f39744e025c7d377987f30b03770805dcb0bcd1",
+        "version" : "1.1.4"
+      }
+    },
+    {
+      "identity" : "swift-crypto",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-crypto",
+      "state" : {
+        "revision" : "33a20e650c33f6d72d822d558333f2085effa3dc",
+        "version" : "2.5.0"
+      }
+    },
+    {
+      "identity" : "swiftformat",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nicklockwood/SwiftFormat",
+      "state" : {
+        "revision" : "29c5053c803d2f58716aa5028f6ef5e9fd397168",
+        "version" : "0.51.11"
+      }
+    },
+    {
+      "identity" : "swiftlanecore",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/swiftlane-code/SwiftlaneCore.git",
+      "state" : {
+        "revision" : "34d29d337f2b6a160c2e23d05a1b09efd553adeb",
+        "version" : "0.9.1"
+      }
+    },
+    {
+      "identity" : "swiftymocky",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nstmrt/SwiftyMocky.git",
+      "state" : {
+        "revision" : "47c5e5b9d1b9d2b25ca30e4664c53719b624ce7b",
+        "version" : "4.1.1"
+      }
+    },
+    {
+      "identity" : "xcodeproj",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/tuist/XcodeProj.git",
+      "state" : {
+        "revision" : "5fdac93cb4a7fd4bad5ac2da34e5bc878263043f",
+        "version" : "8.10.0"
+      }
+    },
+    {
+      "identity" : "xmlcoder",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/MaxDesiatov/XMLCoder",
+      "state" : {
+        "revision" : "b1e944cbd0ef33787b13f639a5418d55b3bed501",
+        "version" : "0.17.1"
+      }
+    },
+    {
+      "identity" : "yams",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jpsim/Yams.git",
+      "state" : {
+        "revision" : "9ff1cc9327586db4e0c8f46f064b6a82ec1566fa",
+        "version" : "4.0.6"
+      }
+    },
+    {
+      "identity" : "zip",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/marmelroy/Zip.git",
+      "state" : {
+        "revision" : "67fa55813b9e7b3b9acee9c0ae501def28746d76",
+        "version" : "2.1.2"
+      }
+    }
+  ],
+  "version" : 2
+}
