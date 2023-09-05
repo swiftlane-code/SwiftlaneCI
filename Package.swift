@@ -7,7 +7,7 @@ let package = Package(
     name: "SwiftlaneCI",
 	platforms: [.macOS(.v12)],
     dependencies: [
-		.package(name: "Swiftlane", path: "../Swiftlane"),
+		.package(url: "https://github.com/swiftlane-code/Swiftlane", from: "0.10.0"),
     ],
     targets: [
         .executableTarget(

@@ -113,8 +113,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-crypto",
       "state" : {
-        "revision" : "33a20e650c33f6d72d822d558333f2085effa3dc",
-        "version" : "2.5.0"
+        "revision" : "60f13f60c4d093691934dc6cfdf5f508ada1f894",
+        "version" : "2.6.0"
       }
     },
     {
@@ -122,8 +122,17 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/nicklockwood/SwiftFormat",
       "state" : {
-        "revision" : "29c5053c803d2f58716aa5028f6ef5e9fd397168",
-        "version" : "0.51.11"
+        "revision" : "1c1bf3b72a020cabe39ce7cd31fc47a3fdc90b44",
+        "version" : "0.52.3"
+      }
+    },
+    {
+      "identity" : "swiftlane",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/swiftlane-code/Swiftlane",
+      "state" : {
+        "revision" : "1063cd87e3c43cc47a88302ea0b34d603eb57b64",
+        "version" : "0.10.0"
       }
     },
     {
@@ -149,8 +158,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/tuist/XcodeProj.git",
       "state" : {
-        "revision" : "5fdac93cb4a7fd4bad5ac2da34e5bc878263043f",
-        "version" : "8.10.0"
+        "revision" : "d5c0c2770d62f9aab78be071f13f3364835d5a65",
+        "version" : "8.14.0"
       }
     },
     {
