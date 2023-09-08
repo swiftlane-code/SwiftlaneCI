@@ -48,8 +48,20 @@ $ cd Examples
 $ ./simple_ci_job.sh
 ```
 
-# Customization
+# Customisation
 
 The best way to customize the runner is to make a fork or a so-called private fork of this repo and modify it as you wish.
 
 Review the configs at `UnitTestsLaneCommand+Configs.swift` & `SharedConfigFactory.swift` and change them to suit your needs.
+
+# Contributing
+
+Swiftlane is an open-source project, and we welcome contributions from anyone who is interested in improving it. Whether you want to fix a bug, add a new feature, or just help with the documentation, we would love to have your help.
+
+To contribute to Swiftlane, you can fork the repository, make your changes, and submit a pull request. We will review your changes and merge them if they meet our quality standards.
+
+Keep in mind that this particular repo is kind of a starting scratch for everyone who is willing to build their CI jobs with Swiftlane.
+
+# License
+
+Swiftlane is licensed under the [Apache License 2.0](LICENSE).
