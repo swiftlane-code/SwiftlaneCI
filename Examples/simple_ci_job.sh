@@ -1,7 +1,6 @@
 #!/bin/zsh
 
 set -euo pipefail
-set -x
 
 
 repo_dir_name='calculator_repo'
