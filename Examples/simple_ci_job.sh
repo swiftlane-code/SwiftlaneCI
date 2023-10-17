@@ -35,8 +35,9 @@ build_swiftlane_binary() {
 	cd -
 }
 
-clean_logs() {
+clean_build_artifacts() {
 	rm -rf logs
+	rm -rf swiftlane_builds
 }
 
 reclone_repo() {
@@ -65,7 +66,7 @@ verify_run_dir
 
 install_dependencies
 
-clean_logs
+clean_build_artifacts
 
 build_swiftlane_binary
 
