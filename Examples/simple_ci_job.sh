@@ -30,7 +30,8 @@ verify_run_dir() {
 build_swiftlane_binary() {
 	cd ..
 
-	swift build --product $swiftlane_binary_name #-c release
+	# Using Debug build configuration for faster compilation
+	swift build --product $swiftlane_binary_name -c debug
 
 	cd -
 }
