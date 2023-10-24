@@ -3,7 +3,7 @@
 set -euo pipefail
 
 
-repo_dir_name='calculator_repo'
+repo_dir_name='dummy_project_repo'
 
 swiftlane_binary_name="SwiftlaneCI"
 swiftlane_binary="../.build/debug/$swiftlane_binary_name"
@@ -46,7 +46,7 @@ reclone_repo() {
 		rm -rf "$repo_dir_name"
 	fi
 
-	git clone https://github.com/vmzhivetyev/TheCalculator.git "$repo_dir_name"
+	git clone https://github.com/swiftlane-code/DummyProject.git "$repo_dir_name"
 }
 
 run_tests() {
@@ -57,7 +57,7 @@ run_tests() {
 	export GITLAB_API_ENDPOINT="https://localhost"
 	export PROJECT_ACCESS_TOKEN="aaaaaaaaaaaaaaaa"
 
-	$swiftlane_binary 'test-calculator' \
+	$swiftlane_binary 'test-dummy' \
 		--project-dir "$project_dir" \
 		--verbose-logfile "$PWD/verbose_log.txt" \
 		--log-level 'info'
