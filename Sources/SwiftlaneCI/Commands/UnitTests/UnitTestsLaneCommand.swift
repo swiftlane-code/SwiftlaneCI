@@ -10,8 +10,8 @@ import Swiftlane
 
 public struct UnitTestsLaneCommand: SwiftlaneCommand {
 	public static var configuration = CommandConfiguration(
-		commandName: "test-calculator",
-		abstract: "Custom tests lane for scheme TheCalculator."
+		commandName: "test-dummy",
+		abstract: "Custom tests lane for scheme DummyProject."
 	)
 	
 	@Option(help: "Project dir path.")

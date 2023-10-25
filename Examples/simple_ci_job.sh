@@ -1,10 +1,9 @@
 #!/bin/zsh
 
 set -euo pipefail
-set -x
 
 
-repo_dir_name='calculator_repo'
+repo_dir_name='dummy_project_repo'
 
 swiftlane_binary_name="SwiftlaneCI"
 swiftlane_binary="../.build/debug/$swiftlane_binary_name"
@@ -31,13 +30,15 @@ verify_run_dir() {
 build_swiftlane_binary() {
 	cd ..
 
-	swift build --product $swiftlane_binary_name #-c release
+	# Using Debug build configuration for faster compilation
+	swift build --product $swiftlane_binary_name -c debug
 
 	cd -
 }
 
-clean_logs() {
+clean_build_artifacts() {
 	rm -rf logs
+	rm -rf swiftlane_builds
 }
 
 reclone_repo() {
@@ -45,7 +46,7 @@ reclone_repo() {
 		rm -rf "$repo_dir_name"
 	fi
 
-	git clone https://github.com/vmzhivetyev/TheCalculator.git "$repo_dir_name"
+	git clone https://github.com/swiftlane-code/DummyProject.git "$repo_dir_name"
 }
 
 run_tests() {
@@ -56,7 +57,7 @@ run_tests() {
 	export GITLAB_API_ENDPOINT="https://localhost"
 	export PROJECT_ACCESS_TOKEN="aaaaaaaaaaaaaaaa"
 
-	$swiftlane_binary 'test-calculator' \
+	$swiftlane_binary 'test-dummy' \
 		--project-dir "$project_dir" \
 		--verbose-logfile "$PWD/verbose_log.txt" \
 		--log-level 'info'
@@ -66,7 +67,7 @@ verify_run_dir
 
 install_dependencies
 
-clean_logs
+clean_build_artifacts
 
 build_swiftlane_binary
 

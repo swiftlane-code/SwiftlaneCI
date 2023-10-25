@@ -6,7 +6,7 @@ This repo is just a minimal example showing how to get started with Swiftlane. W
 
 # What's inside
 
-Simple CI job named `test-calculator` defined in [UnitTestsLaneCommand.swift](Sources/SwiftlaneCI/Commands/UnitTests/UnitTestsLaneCommand.swift) which will:
+Simple CI job named `test-dummy` defined in [UnitTestsLaneCommand.swift](Sources/SwiftlaneCI/Commands/UnitTests/UnitTestsLaneCommand.swift) which will:
 * Build and run unit tests
 * Check for build errors
 * Check for build warnings

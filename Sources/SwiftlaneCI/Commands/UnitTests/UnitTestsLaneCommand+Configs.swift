@@ -7,9 +7,9 @@ import SwiftlaneCore
 public extension UnitTestsLaneCommand {
 	func testsConfig() -> RunTestsCommandConfig {
 		RunTestsCommandConfig(
-			scheme: "TheCalculator",
+			scheme: "DummyProject",
 			deviceModel: "iPhone 14",
-			osVersion: "16.2",
+			osVersion: "16.4",
 			simulatorsCount: 1,
 			testPlan: nil,
 			useMultiScan: false
@@ -89,7 +89,7 @@ public extension UnitTestsLaneCommand {
 					]
 				],
 				targetCoverageLimits: [
-					"TheCalculator" : .init(limit: 60, filtersSetsNames: ["base"]),
+					"DummyProject" : .init(limit: 60, filtersSetsNames: ["base"]),
 				],
 				allowedProductNameSuffixes: [
 					".app",

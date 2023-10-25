@@ -21,7 +21,7 @@ enum SharedConfigFactory {
 				mergedJUnitName: try .init("_merged_result.junit"),
 				mergedXCResultName: nil,
 				xccovFileName: try .init("xccov_report.json"),
-				projectFile: try .init("TheCalculator.xcodeproj"),
+				projectFile: try .init("DummyProject.xcodeproj"),
 				derivedDataDir: .relative(swiftlaneBuilds.appending(suffix: "/derived_data")),
 				testRunsDerivedDataDir: .relative(swiftlaneBuilds.appending(suffix: "/test_runs_derived_data")),
 				logsDir: .relative(swiftlaneBuilds.appending(suffix: "/logs")),
