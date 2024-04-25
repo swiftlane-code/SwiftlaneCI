@@ -51,7 +51,7 @@ $ ./simple_ci_job.sh
 
 If you want to build a binary to install the runner on your local machine there are a few options. 
 
-Please keep in mind that it's an example implementation and you really have to customise it to suite your specific needs before thinking about binary distribution across your machines.
+Please keep in mind that it's an example implementation and you really have to customise it to suit your specific needs before thinking about binary distribution across your machines.
 
 ### Mint
 
